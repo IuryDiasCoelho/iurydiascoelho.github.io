@@ -1,86 +1,118 @@
 body{
+
     font-family:Poppins;
-    background:#0f172a;
-    color:white;
     margin:0;
+    color:white;
+
+    /* Fundo camuflado */
+
+    background-color:#1b2a1b;
+
+    background-image:
+            radial-gradient(#3b5d3b 20%, transparent 20%),
+            radial-gradient(#4c6b3c 20%, transparent 20%),
+            radial-gradient(#2e4a2e 20%, transparent 20%);
+
+    background-size:120px 120px;
+    background-position:0 0, 60px 60px, 30px 30px;
+
 }
 
-.hero{
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    background:#111;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+header{
     text-align:center;
     padding:80px 20px;
 }
 
-.foto{
+header img{
     width:180px;
     border-radius:50%;
-    border:4px solid #38bdf8;
+    border:4px solid #8fae63;
 }
 
-h1{
-    font-size:42px;
-    margin:10px;
-}
-
-h2{
-    color:#38bdf8;
-}
-
-.botoes a{
-    text-decoration:none;
+.btn{
+    background:#8fae63;
     padding:12px 20px;
-    margin:10px;
-    background:#38bdf8;
-    color:#0f172a;
     border-radius:8px;
-    font-weight:600;
+    text-decoration:none;
+    color:#111;
+    font-weight:bold;
 }
 
 section{
+    padding:60px 20px;
     max-width:1000px;
     margin:auto;
-    padding:50px 20px;
     text-align:center;
 }
 
-.tecnologias{
+.tech{
     display:flex;
     justify-content:center;
-    gap:30px;
+    gap:25px;
     flex-wrap:wrap;
 }
 
-.tecnologias img{
+.tech img{
     width:60px;
     transition:0.3s;
 }
 
-.tecnologias img:hover{
+.tech img:hover{
     transform:scale(1.2);
 }
 
-.cards{
+.projetos{
     display:flex;
     gap:20px;
-    justify-content:center;
     flex-wrap:wrap;
+    justify-content:center;
 }
 
 .card{
     background:#1e293b;
     padding:25px;
     border-radius:10px;
-    width:180px;
+    width:250px;
     transition:0.3s;
 }
 
 .card:hover{
     transform:translateY(-5px);
-    background:#38bdf8;
-    color:#0f172a;
+    background:#8fae63;
+    color:#111;
+}
+
+#typing::after{
+    content:"|";
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    0%{opacity:1}
+    50%{opacity:0}
+    100%{opacity:1}
 }
 
 footer{
     text-align:center;
     padding:20px;
-    background:#1e293b;
+    background:#111;
 }
