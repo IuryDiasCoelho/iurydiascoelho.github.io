@@ -1,0 +1,89 @@
+body{
+    font-family:Poppins;
+    background:#0f172a;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:#1e293b;
+}
+
+h1{
+    font-size:36px;
+}
+
+.objetivo{
+    color:#38bdf8;
+}
+
+section{
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.sobre{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.perfil{
+    width:220px;
+    border-radius:20px;
+}
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.tech img{
+    width:50px;
+    transition:0.3s;
+}
+
+.tech img:hover{
+    transform:scale(1.2);
+}
+
+ul{
+    line-height:2;
+}
+
+.github img{
+    margin:10px;
+}
+
+.contato{
+    text-align:center;
+}
+
+.botao{
+    padding:12px 20px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+}
+
+.linkedin{
+    background:#0077B5;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e293b;
+}
