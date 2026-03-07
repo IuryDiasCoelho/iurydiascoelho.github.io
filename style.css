@@ -3,83 +3,80 @@ body{
     background:#0f172a;
     color:white;
     margin:0;
-    padding:0;
 }
 
-header{
+.hero{
     text-align:center;
-    padding:40px;
-    background:#1e293b;
+    padding:80px 20px;
+}
+
+.foto{
+    width:180px;
+    border-radius:50%;
+    border:4px solid #38bdf8;
 }
 
 h1{
-    font-size:36px;
+    font-size:42px;
+    margin:10px;
 }
 
-.objetivo{
+h2{
     color:#38bdf8;
 }
 
-section{
-    padding:40px;
-    max-width:1000px;
-    margin:auto;
+.botoes a{
+    text-decoration:none;
+    padding:12px 20px;
+    margin:10px;
+    background:#38bdf8;
+    color:#0f172a;
+    border-radius:8px;
+    font-weight:600;
 }
 
-.sobre{
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+    text-align:center;
+}
+
+.tecnologias{
     display:flex;
-    align-items:center;
+    justify-content:center;
     gap:30px;
     flex-wrap:wrap;
 }
 
-.perfil{
-    width:220px;
-    border-radius:20px;
-}
-
-.tech{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-.tech img{
-    width:50px;
+.tecnologias img{
+    width:60px;
     transition:0.3s;
 }
 
-.tech img:hover{
+.tecnologias img:hover{
     transform:scale(1.2);
 }
 
-ul{
-    line-height:2;
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
 }
 
-.github img{
-    margin:10px;
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:10px;
+    width:180px;
+    transition:0.3s;
 }
 
-.contato{
-    text-align:center;
-}
-
-.botao{
-    padding:12px 20px;
-    margin:10px;
-    border-radius:8px;
-    text-decoration:none;
-    color:white;
-    font-weight:600;
-}
-
-.linkedin{
-    background:#0077B5;
-}
-
-.whatsapp{
-    background:#25D366;
+.card:hover{
+    transform:translateY(-5px);
+    background:#38bdf8;
+    color:#0f172a;
 }
 
 footer{
