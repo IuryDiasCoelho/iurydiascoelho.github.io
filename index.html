@@ -6,11 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Iury Dias Coelho | Software Developer</title>
+    <title>Iury Dias Coelho | Desenvolvedor Backend Jr.</title>
+    <meta name="description" content="Portfólio de Iury Dias Coelho, estudante de Engenharia de Software e ex-militar do Exército Brasileiro, com experiência em sistemas críticos de comunicação e segurança da informação. Backend, Web e Cloud (AWS).">
+
+    <!-- Open Graph (preview ao compartilhar o link) -->
+    <meta property="og:title" content="Iury Dias Coelho | Desenvolvedor Backend Jr.">
+    <meta property="og:description" content="Estudante de Engenharia de Software buscando vaga júnior/estágio em tecnologia. Backend, Web, Banco de Dados e Cloud.">
+    <meta property="og:image" content="https://github.com/IuryDiasCoelho/IuryDiasCoelho/blob/main/caricatura.jpeg?raw=true">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -20,10 +29,17 @@
 
     <h2>Iury Dias</h2>
 
-    <ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul id="navMenu">
 
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
@@ -34,48 +50,110 @@
 
 <header>
 
-    <img src="https://github.com/IuryDiasCoelho/IuryDiasCoelho/blob/main/caricatura.jpeg?raw=true">
+    <img src="https://github.com/IuryDiasCoelho/IuryDiasCoelho/blob/main/caricatura.jpeg?raw=true" alt="Foto de Iury Dias Coelho">
 
     <h1>Iury Dias Coelho</h1>
 
-    <h2 id="typing"></h2>
+    <h2 id="typing">Estudante de Engenharia de Software.</h2>
 
-    <a class="btn" href="https://www.linkedin.com/in/iury-dias-coelho-5009a6298/">LinkedIn</a>
+    <div class="header-btns">
+        <a class="btn" href="https://www.linkedin.com/in/iury-dias-coelho-5009a6298/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
 
 </header>
 
 <section id="sobre">
 
-    <h2>👨‍💻 Sobre mim</h2>
+    <span class="eyebrow">Perfil</span>
+    <h2>Sobre mim</h2>
 
     <p>
-
-        Acadêmico de Engenharia de Software (Estácio) com formação técnica complementar em
-        Desenvolvimento Web e Mobile pela EFG.
-        Sou movido por desafios técnicos e busco
-        ingressar no mercado de TI para aplicar minhas competências em organização, foco em
-        entrega de valor e aprendizado contínuo
-
+        Estudante de Engenharia de Software (7º período, Estácio, CR 8,59), com disciplinas técnicas
+        concluídas em Backend, Banco de Dados, Estrutura de Dados e Cloud Computing.
+        Ex-militar do Exército Brasileiro, com 8 anos de experiência em operações críticas, sistemas de
+        comunicação e segurança da informação — reconhecido formalmente por competência técnica,
+        disciplina e liderança. Perfil orientado a resultados, resiliente e habituado a ambientes de alta
+        exigência técnica e operacional.
     </p>
 
 </section>
 
 <section id="tecnologias">
 
-    <h2>🚀 Tecnologias</h2>
+    <span class="eyebrow">Arsenal técnico</span>
+    <h2>Tecnologias</h2>
 
     <div class="tech">
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" alt="AWS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+
+    </div>
+
+    <div class="skills-extra">
+        <div class="skills-col">
+            <h4>Banco de Dados</h4>
+            <p>SQL, MySQL, PostgreSQL, NoSQL (em curso)</p>
+        </div>
+        <div class="skills-col">
+            <h4>Cloud &amp; DevOps</h4>
+            <p>AWS, Computação em Nuvem, Docker (básico), Jenkins (básico), GitLab</p>
+        </div>
+        <div class="skills-col">
+            <h4>Certificações</h4>
+            <p>Endpoint Security (Cisco) · Computação em Nuvem (AWS)</p>
+        </div>
+        <div class="skills-col">
+            <h4>Idiomas</h4>
+            <p>Português (nativo) · Inglês e Espanhol (básico, leitura técnica)</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="experiencia">
+
+    <span class="eyebrow">Trajetória</span>
+    <h2>Experiência Profissional</h2>
+
+    <div class="medal-card">
+
+        <div class="medal-badge" aria-hidden="true">★</div>
+
+        <div class="medal-content">
+
+            <h3>Exército Brasileiro — 1º Batalhão de Forças Especiais</h3>
+            <p class="medal-role">Cabo, Operador de Comunicações (Operações Especiais) · 2018 – 2026</p>
+
+            <ul class="medal-list">
+                <li>Atuou como auxiliar de especialista em comunicações na Equipe Tática Bravo do Destacamento de Contraterrorismo (DCT), dando suporte técnico a operações de alta complexidade e ambientes críticos de segurança.</li>
+                <li>Operou e manteve sistemas de comunicação em operações reais e adestramentos de grande porte, garantindo continuidade operacional e segurança da informação.</li>
+                <li>Atuou por 8 anos em ambientes de alta pressão, exigindo rigor técnico, tomada de decisão rápida, disciplina e trabalho em equipe de alta performance.</li>
+                <li>Promovido à graduação de Cabo em reconhecimento a desempenho técnico, comprometimento e liderança.</li>
+            </ul>
+
+            <div class="honras">
+                <a class="honra-item" href="https://1drv.ms/f/c/34b1f6b5d5252000/IgATtXsFrWHtTqq0Hs8JQY-0Afwki98OrrjyiVf5VpNfMgE?e=iPaltZ" target="_blank" rel="noopener">
+                    <strong>Referência Elogiosa (2026) <span class="honra-link-icon">↗</span></strong>
+                    <span>1º Batalhão de Forças Especiais — reconhecimento por competência técnica, retidão de caráter e liderança silenciosa ao longo de 8 anos de serviço.</span>
+                </a>
+                <a class="honra-item" href="https://1drv.ms/f/c/34b1f6b5d5252000/IgATtXsFrWHtTqq0Hs8JQY-0Afwki98OrrjyiVf5VpNfMgE?e=iPaltZ" target="_blank" rel="noopener">
+                    <strong>Honra ao Mérito (2026) <span class="honra-link-icon">↗</span></strong>
+                    <span>Concedida por excelente conduta e comportamento exemplar durante todo o período de serviço ativo.</span>
+                </a>
+            </div>
+
+        </div>
 
     </div>
 
@@ -83,60 +161,111 @@
 
 <section id="formacao">
 
-    <h2>🎓 Formação</h2>
+    <span class="eyebrow">Base de instrução</span>
+    <h2>Formação</h2>
 
-    <ul>
+    <p class="formacao-sub">Engenharia de Software — Centro Universitário Estácio · 7º período (cursando) · CR 8,59</p>
 
-        <li>Estruturas de Dados</li>
-        <li>Banco de Dados Relacional</li>
-        <li>Programação Orientada a Objetos em Java</li>
-        <li>Desenvolvimento Web (HTML, CSS, JavaScript, PHP)</li>
-        <li>Arquitetura de Sistemas</li>
-        <li>Sistemas Operacionais</li>
-        <li>Segurança da Informação</li>
-        <li>Modelagem de Sistemas com UML</li>
-        <li>Desenvolvimento Web MVC</li>
-        <li>Padrões de Projeto em Java</li>
+    <div class="disciplinas">
 
-    </ul>
+        <div class="disc-col disc-col-scroll">
+            <h4>Concluídas <span class="disc-count">(29)</span></h4>
+            <ul>
+                <li>Pensamento Computacional <span>10,0</span></li>
+                <li>Arquitetura de Computadores <span>9,0</span></li>
+                <li>Paradigmas de Linguagens de Programação em Python <span>10,0</span></li>
+                <li>Introdução à Segurança da Informação <span>8,0</span></li>
+                <li>Processos de Desenvolvimento de Software <span>9,0</span></li>
+                <li>Matemática e Lógica <span>9,4</span></li>
+                <li>Desenvolvimento Web em HTML5, CSS, JavaScript, PHP <span>9,6</span></li>
+                <li>Fundamentos de Redes de Computadores <span>8,0</span></li>
+                <li>Sistemas de Informação e Sociedade <span>7,2</span></li>
+                <li>Requisitos de Sistemas <span>6,2</span></li>
+                <li>Banco de Dados <span>9,2</span></li>
+                <li>Engenharia de Usabilidade <span>8,3</span></li>
+                <li>Estrutura de Dados <span>9,7</span></li>
+                <li>Gerência de Configuração <span>6,7</span></li>
+                <li>Arquitetura de Sistemas <span>6,0</span></li>
+                <li>Comportamento Organizacional <span>7,9</span></li>
+                <li>Programação Orientada a Objetos em Java <span>10,0</span></li>
+                <li>Sistemas Operacionais <span>9,8</span></li>
+                <li>Indicadores de Desempenho de TI <span>7,7</span></li>
+                <li>Modelagem de Sistemas em UML <span>10,0</span></li>
+                <li>Modelagem de Processos <span>9,4</span></li>
+                <li>Engenharia do Produto <span>6,9</span></li>
+                <li>Desenvolvimento de Software Seguro <span>10,0</span></li>
+                <li>Padrões de Projetos de Software com Java <span>6,8</span></li>
+                <li>Desenvolvimento Web Full MVC <span>10,0</span></li>
+                <li>Métodos Quantitativos <span>10,0</span></li>
+                <li>Direito Cibernético <span>8,8</span></li>
+                <li>Programação em Python para Análise de Dados <span>9,3</span></li>
+                <li>Métodos Ágeis com Scrum <span>9,2</span></li>
+            </ul>
+        </div>
+
+        <div class="disc-col">
+            <h4>Cursando (2026.2) <span class="disc-count">(6)</span></h4>
+            <ul class="sem-nota">
+                <li>Desenvolvimento de Back-End</li>
+                <li>Banco de Dados NoSQL</li>
+                <li>Computação em Nuvem</li>
+                <li>Programação para Dispositivos Móveis em Android</li>
+                <li>Qualidade e Testes de Software</li>
+                <li>Linhas de Produtos de Software</li>
+            </ul>
+        </div>
+
+        <div class="disc-col">
+            <h4>A Cursar <span class="disc-count">(5)</span></h4>
+            <ul class="sem-nota">
+                <li>Gerenciamento de Projetos</li>
+                <li>Tópicos de Big Data em Python</li>
+                <li>Desenvolvimento de Front-End</li>
+                <li>Sistemas Distribuídos e Computação Paralela</li>
+                <li>Desenvolvimento e Operações Integrados DevOps</li>
+            </ul>
+        </div>
+
+    </div>
 
 </section>
 
 <section id="projetos">
 
-    <h2>💻 Projetos</h2>
+    <span class="eyebrow">Linha de frente</span>
+    <h2>Projetos</h2>
 
     <div class="projetos">
 
-        <div class="card">
+        <a class="card" href="https://github.com/IuryDiasCoelho/ABPJ3_gestor_estoque" target="_blank" rel="noopener">
 
             <h3>Sistema de Controle de Estoque</h3>
 
             <p>
-                Sistema em Python para gerenciamento de produtos, vendas e controle financeiro.
+                CRUD para gestão de estoque com banco de dados — cadastro de produtos, vendas e controle financeiro em Python.
             </p>
 
-        </div>
+        </a>
 
-        <div class="card">
+        <a class="card" href="https://github.com/IuryDiasCoelho/ABPJ2_pedra_papel_tesoura" target="_blank" rel="noopener">
 
             <h3>Jogo de pedra papel tesoura</h3>
 
             <p>
-                Desenvolvimento de aplicação Python com interface gráfica (GUI) e compilação para arquivo executável nativo
+                Desenvolvimento de aplicação Python com interface gráfica (GUI) e compilação para arquivo executável nativo.
             </p>
 
-        </div>
+        </a>
 
-        <div class="card">
+        <a class="card" href="https://github.com/IuryDiasCoelho/pagina_loguin" target="_blank" rel="noopener">
 
-            <h3>Portfólio Web</h3>
+            <h3>Sistema de Login e Autenticação</h3>
 
             <p>
-                Site pessoal desenvolvido com HTML, CSS e JavaScript.
+                Aplicação com cadastro e autenticação de usuários, desenvolvida em Python.
             </p>
 
-        </div>
+        </a>
 
     </div>
 
@@ -144,11 +273,20 @@
 
 <section id="contato">
 
-    <h2>📫 Contato</h2>
+    <span class="eyebrow">Contato</span>
+    <h2>Vamos conversar</h2>
 
-    <a class="btn" href="https://www.linkedin.com/in/iury-dias-coelho-5009a6298/">LinkedIn</a>
+    <p class="contato-info">iurydiascoelho31@hotmail.com · (62) 9 9969-2700</p>
 
-    <a class="btn whatsapp" href="https://wa.me/5562999692700">WhatsApp</a>
+    <div class="contato-btns">
+
+        <a class="btn" href="https://www.linkedin.com/in/iury-dias-coelho-5009a6298/" target="_blank" rel="noopener">LinkedIn</a>
+
+        <a class="btn whatsapp" href="https://wa.me/5562999692700" target="_blank" rel="noopener">WhatsApp</a>
+
+        <a class="btn btn-outline" href="mailto:iurydiascoelho31@hotmail.com">E-mail</a>
+
+    </div>
 
 </section>
 
