@@ -20,12 +20,18 @@ body{
     color: var(--text);
     background-color: var(--bg);
     background-image:
-            linear-gradient(rgba(15, 20, 15, 0.88), rgba(15, 20, 15, 0.93)),
+            radial-gradient(ellipse at center, rgba(15, 20, 15, 0.72) 0%, rgba(10, 14, 10, 0.94) 75%),
             url("fotos/BG.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-size: cover, 420px;
+    background-position: center, center;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat;
+}
+
+@media (max-width: 768px){
+    body{
+        background-attachment: scroll, scroll;
+    }
 }
 
 h1, h2, h3, .eyebrow{
