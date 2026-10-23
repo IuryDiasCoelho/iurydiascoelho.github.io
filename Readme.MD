@@ -19,10 +19,9 @@ Portfólio construído com HTML, CSS e JavaScript puros (sem frameworks), com id
 
 ## Tecnologias utilizadas
 
-- HTML5 semântico
-- CSS3 (variáveis customizadas, Flexbox, media queries)
-- JavaScript (Vanilla JS — sem dependências)
-- Fontes: [Poppins](https://fonts.google.com/specimen/Poppins) e [Oswald](https://fonts.google.com/specimen/Oswald) (Google Fonts)
+- HTML5 
+- CSS3 
+- JavaScript 
 - Ícones: [Devicon](https://devicon.dev/)
 
 ## Estrutura de arquivos
@@ -34,19 +33,10 @@ iurydiascoelho.github.io/
 ├── script.js           # efeito de digitação + menu mobile
 ├── fotos/
 │   └── BG.jpg           # imagem de fundo (camuflagem)
+    └── perfil.jpg       # imagem de perfil 
 └── README.md
 ```
 
-## Como rodar localmente
-
-Como é um site estático, basta clonar o repositório e abrir o `index.html` no navegador:
-
-```bash
-git clone https://github.com/IuryDiasCoelho/iurydiascoelho.github.io.git
-cd iurydiascoelho.github.io
-```
-
-Depois é só abrir o arquivo `index.html` diretamente no navegador, ou servir a pasta com uma extensão como o *Live Server* (VS Code) para recarregamento automático.
 
 ## Contato
 
